@@ -35,3 +35,53 @@ Flags:
 
 Use "protector [command] --help" for more information about a command.
 ```
+
+## Getting started
+
+- [Download](#download)
+- [Commands](#commands)
+    - [Encrypt](#encrypt)
+    - [Repair](#repair)
+- [Copyright Notice](#copyright-notice)
+
+### Download
+
+To download the latest release, go to the [release page](https://github.com/tsunejui/image-protector/releases)
+
+### Commands
+
+You can run run the following commands for the different requirement:
+
+<a id="encrypt"></a>
+**Encrypt** - Encrypt the repairing information on photo
+
+```
+Hide the repairing information in each pixel on specified image
+
+Usage:
+  protector encrypt [flags]
+
+Flags:
+  -f, --file string     specify a file
+  -h, --help            help for encrypt
+  -o, --output string   export the image
+```
+
+<a id="repair"></a>
+**Repair** - Repair the damaged image
+
+```
+Repair the damaged image
+
+Usage:
+  protector repair [flags]
+
+Flags:
+  -f, --file string     specify a file
+  -h, --help            help for repair
+  -o, --output string   export the image
+```
+
+### Copyright Notice
+
+This tool is solely for personal and non-commercial use and for reference only. 
