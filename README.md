@@ -50,7 +50,7 @@ To download the latest release, go to the [release page](https://github.com/tsun
 
 ### Commands
 
-You can run run the following commands for the different requirement:
+You can run the following commands for the different requirement:
 
 <a id="encrypt"></a>
 **Encrypt** - Encrypt the repairing information on photo
