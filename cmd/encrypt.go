@@ -30,7 +30,7 @@ func init() {
 
 func runHideCommand(cmd *cobra.Command, args []string) error {
 
-	// ope file
+	// open file
 	f, err := os.Open(hideFile)
 	if err != nil {
 		return fmt.Errorf("failed to open file: %v", err)
